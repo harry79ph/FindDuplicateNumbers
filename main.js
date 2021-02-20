@@ -10,6 +10,8 @@ form.addEventListener('submit', e => {
         init(array);
         form.reset();
         numbers.innerText = `${[...array]}`;
+    } else {
+        alert('Please enter a number between 0 and 999');
     }
 });
 function init(array) {
