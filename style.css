@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.container{
+    font-family: Roboto;
+    min-height: 200px;
+    max-width: 400px;
+    display: flex;
+    background-color: #f4ecf7;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px auto;
+    color: #4a235a;
+}
+form p{
+    text-align: center;
+    font-weight: bolder;
+}
+label{
+    padding: 3px;
+}
+input{
+    font-size: 20px;
+    height: 30px;
+    max-width: 50px;
+    border: 0;
+    border-radius: 5px;
+}
+.numbers-section{
+    font-style: italic;
+}
+.numbers-section .numbers{
+    text-align: center;
+}
+h3{
+    margin: 0;
+    margin-top: 20px;
+}
+.result{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.result p{
+    margin: 0;
+    padding: 0;
+}
+.duplicates{
+    max-height: 150px;
+    overflow-y: auto;
+}
+.more{
+    max-height: 100px;
+    overflow-y: auto;
+}
